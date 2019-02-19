@@ -24,7 +24,7 @@
   "stake_success_message": "You have successfully staked additional {{chainSymbol}}.",
   "stake_updated": "La tua cifra investita è stata aggiornata con successo.",
   "staked_balances": "Bilancio investito",
-  "staked_data": "Statistiche EOS investiti",
+  "staked_data": "Statistiche SNAX investiti",
   "total_staked_in_total": "{{chainSymbol}} staked in Total",
   "undelegate_explanation_message": "Any {{chainSymbol}} unstaked from either Bandwidth or CPU will be unavailable for 3 days. After this waiting period it will appear as available.",
   "unstake_success_message": "You have successfully unstaked {{chainSymbol}}.",

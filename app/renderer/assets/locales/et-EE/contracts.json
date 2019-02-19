@@ -4,7 +4,7 @@
   "system_transfer_1": "Mina, {{from}}, kinnitan, et järgnev on tõene minu parima teadmise juures:",
   "system_transfer_2": "1. Ma kinnitan, et {{quantity}} ei ole pettuse või vägivaldse tegevuse tulu.",
   "system_transfer_3": "2. Kinnitan, et minu parima teadmise juures {{to}} ei toeta vägivalla algatamist teiste suhtes.",
-  "system_transfer_4": "3. Olen avaldanud kõik lepingulised tingimused seoses {{quantity}} edastamisega {{to}}le.",
+  "system_transfer_4": "3. Olen avaldanud kõik lepingulised tingimused ssnaxes {{quantity}} edastamisega {{to}}le.",
   "system_transfer_5": "Mõistan, et varade ülekanded ei ole tagasipööratavad peale {{transaction.delay}} sekundi, või muu viivituse, mis on seadistatud minu {{from}} õiguste poolt, möödumist.",
   "system_transfer_6": "Kui tehingu pöördumatu kinnitamine nurjub peale {{to}} kaupade või teenuste kättesaamist, nõustun kas tagastama kaubad või teenused või uuesti õigeaegselt saatma {{quantity}}.",
   "system_voteproducer_1": "Tootjahääletuse meetme eesmärk on anda kehtiv hääl kuni 30 BP kandidaadile.",

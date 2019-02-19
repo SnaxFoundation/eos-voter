@@ -5,7 +5,7 @@ import * as types from '../actions/types';
 const knownChains = [
   {
     _id: 'snax-testnet',
-    chainId: '56be9cbec04d021da6aee34327ff3a62c127b0b464fb72091001e285fc6c4b44',
+    chainId: 'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8',
     keyPrefix: 'SNAX',
     name: 'SNAX',
     node: 'https://testnetcdn.snax.one',

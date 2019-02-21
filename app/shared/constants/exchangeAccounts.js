@@ -1,7 +1,4 @@
 const defaultExchangeAccounts = [
-  'binancecleos',
-  'bitfinexdep1',
-  'krakenkraken'
 ];
 
 // exchange accounts by chain id

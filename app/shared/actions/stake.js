@@ -22,9 +22,9 @@ export function setStake(accountName, netAmount, cpuAmount) {
     const currentAccount = accounts[settings.account];
 
     const delegations = tables &&
-                        tables.eosio &&
-                        tables.eosio[settings.account] &&
-                        tables.eosio[settings.account].delband.rows;
+                        tables.snax &&
+                        tables.snax[settings.account] &&
+                        tables.snax[settings.account].delband.rows;
 
     const {
       increaseInStake,

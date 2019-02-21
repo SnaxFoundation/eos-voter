@@ -85,9 +85,9 @@ class ToolsDelegations extends Component<Props> {
     } = this.state;
 
     const delegations = tables &&
-                        tables.eosio &&
-                        tables.eosio[settings.account] &&
-                        tables.eosio[settings.account].delband.rows;
+                        tables.snax &&
+                        tables.snax[settings.account] &&
+                        tables.snax[settings.account].delband.rows;
 
     const delegationsToDisplay = sortBy(delegations, 'accountName');
 

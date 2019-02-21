@@ -30,66 +30,6 @@ export function createAccount(
       type: types.SYSTEM_CREATEACCOUNT_PENDING
     });
 
-    if (connection.chainSymbol === "BEOS") {
-      return eos(connection, true)
-        .getAbi('eosio')
-        .then((c) => {
-          const contract = new EOSContract(c.abi, c.account_name);
-          eos(connection, true).contract(contract.account).then(({ newaccount }) => {
-            newaccount(
-              {
-                creator: currentAccount,
-                name: accountName,
-                init_ram: 1,
-                owner: ownerKey,
-                active: activeKey
-              },
-              {
-                broadcast: connection.broadcast,
-                expireInSeconds: connection.expireInSeconds,
-                sign: connection.sign
-              }
-            ).then(tx => {
-              setTimeout(() => {
-                dispatch(AccountActions.getAccount(currentAccount));
-              }, 500);
-              return dispatch({
-                payload: {
-                  connection,
-                  tx
-                },
-                type: types.SYSTEM_CREATEACCOUNT_SUCCESS
-              });
-            }).catch((err) => {
-              dispatch({
-                payload: {
-                  connection,
-                  err
-                },
-                type: types.SYSTEM_CREATEACCOUNT_FAILURE
-              });
-            });
-          }).catch((err) => {
-            dispatch({
-              payload: {
-                connection,
-                err
-              },
-              type: types.SYSTEM_CREATEACCOUNT_FAILURE
-            });
-          });
-        })
-        .catch((err) => {
-          dispatch({
-            payload: {
-              connection,
-              err
-            },
-            type: types.SYSTEM_CREATEACCOUNT_FAILURE
-          });
-        });
-    }
-
     return eos(connection, true).transaction(tr => {
         tr.newaccount({
           creator: currentAccount,

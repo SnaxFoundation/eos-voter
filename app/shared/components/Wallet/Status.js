@@ -58,9 +58,9 @@ class WalletStatus extends Component<Props> {
     const balance = balances[settings.account] || {};
 
     const delegations = tables &&
-                        tables.eosio &&
-                        tables.eosio[settings.account] &&
-                        tables.eosio[settings.account].delband.rows;
+                        tables.snax &&
+                        tables.snax[settings.account] &&
+                        tables.snax[settings.account].delband.rows;
 
     const eosAccount = new EOSAccount(account, balance, delegations, connection.chainSymbol);
 

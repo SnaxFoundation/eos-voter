@@ -47,7 +47,7 @@ export default class GlobalFormFieldMultiToken extends Component<Props> {
           return { contract, symbol };
         })
       ) : [{
-        contract: 'eosio',
+        contract: 'snax',
         symbol: connection.chainSymbol || 'EOS'
       }];
 

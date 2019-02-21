@@ -42,7 +42,7 @@ class WalletStatusBalances extends Component<Props> {
             <Header>
               {connection.chainSymbol}
               <Header.Subheader>
-                eosio.token
+                snax.token
               </Header.Subheader>
             </Header>
           </Table.Cell>

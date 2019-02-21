@@ -17,7 +17,7 @@ class WalletPanelFormTransferSend extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-      asset: props.connection.chainSymbol || 'EOS',
+      asset: props.connection.chainSymbol || 'SNAX',
       confirming: false,
       formError: false,
       from: props.settings.account,
@@ -250,7 +250,7 @@ class WalletPanelFormTransferSend extends Component<Props> {
                 autoFocus
                 contacts={settings.contacts}
                 enableContacts
-                enableExchanges
+                // enableExchanges
                 chainId={connection.chainId}
                 fluid
                 label={t('transfer_label_to')}

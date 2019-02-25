@@ -33,7 +33,7 @@ class WelcomeConnectionContainer extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-      node: props.settings.node || 'https://eos.greymass.com',
+      node: props.settings.node || 'https://testnetcdn.snax.one',
       sslConfirm: false
     };
   }
@@ -155,27 +155,7 @@ class WelcomeConnectionContainer extends Component<Props> {
     } catch (e) {
       // console.log('url error', e);
     }
-    let message = (
-      <Message
-        color="blue"
-        content={(
-          <p>
-            <a
-              onClick={() => this.openLink('https://github.com/greymass/eos-voter/blob/master/nodes.md')}
-              onKeyPress={() => this.openLink('https://github.com/greymass/eos-voter/blob/master/nodes.md')}
-              role="link"
-              style={{ cursor: 'pointer' }}
-              tabIndex={0}
-            >
-              {t('welcome:welcome_more_servers_2')}
-            </a>
-          </p>
-        )}
-        icon="info circle"
-        info
-        header={t('welcome:welcome_more_servers_1')}
-      />
-    );
+    let message = null;
     let checkbox = false;
     // display an error if the server could not be validated
     if (validate.NODE === 'FAILURE') {
@@ -210,18 +190,18 @@ class WelcomeConnectionContainer extends Component<Props> {
         </p>
       );
     }
-    const historyPluginMessage = !connection.historyPluginEnabled && (
-      <Popup
-        content={t('welcome:welcome_history_plugin_warning_content')}
-        trigger={
-         <Message
-          color="red"
-          content={t('welcome:welcome_history_plugin_warning_title')}
-          icon="warning"
-        />
-        }
-      />
-    );
+    // const historyPluginMessage = !connection.historyPluginEnabled && (
+    //   <Popup
+    //     content={t('welcome:welcome_history_plugin_warning_content')}
+    //     trigger={
+    //      <Message
+    //       color="red"
+    //       content={t('welcome:welcome_history_plugin_warning_title')}
+    //       icon="warning"
+    //     />
+    //     }
+    //   />
+    // );
     // safeish true and ssl or non-ssl confirmed
     const disabled = !(
       (this.isSafeish(node) && (sslConfirm || sslEnabled))
@@ -229,7 +209,7 @@ class WelcomeConnectionContainer extends Component<Props> {
     );
     return (
       <Form>
-        {(walletMode !== 'cold')
+        {/* {(walletMode !== 'cold')
           ? (
             <Form.Field
               autoFocus={autoFocus}
@@ -245,14 +225,14 @@ class WelcomeConnectionContainer extends Component<Props> {
             />
           )
           : false
-        }
+        } */}
         <Form.Field>
-          <label>
+          {/* <label>
             {(settings.walletMode === 'cold')
               ? t('welcome:welcome_network_config_cold')
               : t('welcome:welcome_network_config')
             }
-          </label>
+          </label> */}
           <GlobalBlockchainDropdown
             selection
           />
@@ -261,7 +241,7 @@ class WelcomeConnectionContainer extends Component<Props> {
           ? (
             <React.Fragment>
               {message}
-              {historyPluginMessage}
+              {/* {historyPluginMessage} */}
               {checkbox}
               <Container textAlign="center">
                 <Button

@@ -9,7 +9,29 @@ const knownChains = [
     keyPrefix: 'SNAX',
     name: 'SNAX',
     node: 'https://testnetcdn.snax.one',
-    supportedContracts: [],
+    supportedContracts: [
+      // 'crosschaintransfer',
+      // 'customtokens',
+      // 'producerinfo',
+      // 'proposals',
+      // 'regproxyinfo'
+    ],
+    symbol: 'SNAX',
+    testnet: true,
+  },
+  {
+    _id: 'snax-testnet(arabia)',
+    chainId: 'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8',
+    keyPrefix: 'SNAX',
+    name: 'SNAX(EOSARABIA)',
+    node: 'https://snax-test.eosarabia.net',
+    supportedContracts: [
+      // 'crosschaintransfer',
+      // 'customtokens',
+      // 'producerinfo',
+      // 'proposals',
+      // 'regproxyinfo'
+    ],
     symbol: 'SNAX',
     testnet: true,
   },

@@ -1,9 +1,9 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/greymass/eos-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/greymass/eos-voter/issues)
+[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
 ![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
 
-[English](https://github.com/greymass/eos-voter/blob/master/README.md) - [한글](https://github.com/greymass/eos-voter/blob/master/README.kr.md) - [中文](https://github.com/greymass/eos-voter/blob/master/README.zh.md) - [日本語](https://github.com/greymass/eos-voter/blob/master/README.ja.md) - [Русский](https://github.com/greymass/eos-voter/blob/master/README.ru.md)
+[English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md) - [Русский](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ru.md)
 
 # eos-voter - EOS Block Producer Voting & Wallet
 
@@ -25,14 +25,14 @@
 
 Current 0.7.2 release downloads:
 
-- [Windows Installer](https://github.com/greymass/eos-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
-- [macOS Package](https://github.com/greymass/eos-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
-- [Linux (deb)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.deb)
-- [Linux (snap)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
+- [Windows Installer](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
+- [macOS Package](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
+- [Linux (deb)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.deb)
+- [Linux (snap)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
 
 The latest release will always be available on the releases page of this repository:
 
-[https://github.com/greymass/eos-voter/releases](https://github.com/greymass/eos-voter/releases)
+[https://github.com/SnaxFoundation/snax-voter/releases](https://github.com/SnaxFoundation/snax-voter/releases)
 
 To determine which file you need, if you are a...
 
@@ -48,7 +48,7 @@ When using `eos-voter`, all transactions are signed within the application and y
 
 We offer a public list of nodes within this repository for use with this application:
 
-[https://github.com/greymass/eos-voter/blob/master/nodes.md](https://github.com/greymass/eos-voter/blob/master/nodes.md)
+[https://github.com/SnaxFoundation/snax-voter/blob/master/nodes.md](https://github.com/SnaxFoundation/snax-voter/blob/master/nodes.md)
 
 This list will be updated over time and can be referenced from within the initial connection screen in the app.
 
@@ -59,7 +59,7 @@ If you'd rather build the application yourself, please ensure you have nodejs/np
 **Note**: If you are configuring this Electron application within a Windows development environment, it will involve additional steps.
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 cd app
@@ -80,7 +80,7 @@ The files built will be located in the `releases` folder within the root project
 ### Running development mode
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 cd app

@@ -1,9 +1,9 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/greymass/eos-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/greymass/eos-voter/issues)
+[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
 ![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
 
-[English](https://github.com/greymass/eos-voter/blob/master/README.md) - [한글](https://github.com/greymass/eos-voter/blob/master/README.kr.md) - [中文](https://github.com/greymass/eos-voter/blob/master/README.zh.md) - [日本語](https://github.com/greymass/eos-voter/blob/master/README.ja.md)
+[English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md)
 
 # eos-voter - EOS 超级节点投票器 & 钱包
 
@@ -25,14 +25,14 @@
 
 当前版本 0.7.2 可供下载:
 
-- [Windows Installer](https://github.com/greymass/eos-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
-- [macOS Package](https://github.com/greymass/eos-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
-- [Linux (deb)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.deb)
-- [Linux (snap)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
+- [Windows Installer](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
+- [macOS Package](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
+- [Linux (deb)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.deb)
+- [Linux (snap)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
 
 最新的版本将在此REPO的发布页面中找到：
 
-[https://github.com/greymass/eos-voter/releases](https://github.com/greymass/eos-voter/releases)
+[https://github.com/SnaxFoundation/snax-voter/releases](https://github.com/SnaxFoundation/snax-voter/releases)
 
 以下用来决定你需要下载哪一个版本, 如果你是...
 
@@ -48,7 +48,7 @@
 
 我们在程序中内置了以下REPO中提供的公共节点:
 
-[https://github.com/greymass/eos-voter/blob/master/nodes.md](https://github.com/greymass/eos-voter/blob/master/nodes.md)
+[https://github.com/SnaxFoundation/snax-voter/blob/master/nodes.md](https://github.com/SnaxFoundation/snax-voter/blob/master/nodes.md)
 
 该节点列表将被实时更新，并在程序初始化时被调用。
 
@@ -59,7 +59,7 @@
 **注意**: 如果你是在Windows环境下编译Electron应用，你还应做如下操作:
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 cd app
@@ -78,7 +78,7 @@ cd ..
 ### 调试模式运行
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 npm run dev

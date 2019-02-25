@@ -1,9 +1,9 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/greymass/eos-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/greymass/eos-voter/issues)
+[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
 ![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
 
-[English](https://github.com/greymass/eos-voter/blob/master/README.md) - [한글](https://github.com/greymass/eos-voter/blob/master/README.kr.md) - [中文](https://github.com/greymass/eos-voter/blob/master/README.zh.md) - [日本語](https://github.com/greymass/eos-voter/blob/master/README.ja.md)
+[English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md)
 
 # eos-voter - EOS 블록 생산자 투표 및 지갑
 
@@ -25,14 +25,14 @@
 
 현재 0.7.2 버전 다운로드 :
 
-- [Windows 사용자](https://github.com/greymass/eos-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
-- [macOS 사용자](https://github.com/greymass/eos-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
-- [Linux 사용자 (deb)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
-- [Linux 사용자 (snap)](https://github.com/greymass/eos-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
+- [Windows 사용자](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/win-eos-voter-0.7.2.exe)
+- [macOS 사용자](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/mac-eos-voter-0.7.2.dmg)
+- [Linux 사용자 (deb)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
+- [Linux 사용자 (snap)](https://github.com/SnaxFoundation/snax-voter/releases/download/v0.7.2/linux-eos-voter-0.7.2-amd64.snap)
 
 최신 버전은 항상이 저장소의 릴리스 페이지에서 제공됩니다:
 
-[https://github.com/greymass/eos-voter/releases](https://github.com/greymass/eos-voter/releases)
+[https://github.com/SnaxFoundation/snax-voter/releases](https://github.com/SnaxFoundation/snax-voter/releases)
 
 필요한 파일을 결정하시려면,...
 
@@ -51,7 +51,7 @@
 **주**: Windows 개발 환경에서이 Electron 어플리케이션을 구성하는 경우 추가 단계가 필요합니다.
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 cd app
@@ -71,7 +71,7 @@ cd ..
 ### 개발 모드
 
 ```
-git clone https://github.com/greymass/eos-voter.git eos-voter
+git clone https://github.com/SnaxFoundation/snax-voter.git eos-voter
 cd eos-voter
 npm install
 npm run dev

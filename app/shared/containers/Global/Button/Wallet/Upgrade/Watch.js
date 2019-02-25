@@ -12,7 +12,7 @@ import * as WalletsActions from '../../../../actions/wallets';
 class GlobalButtonWalletUpgradeWatch extends Component<Props> {
   state = {
     current: {
-      account: 'teamgreymass',
+      account: 'teamsnax',
       authorization: false,
     },
     open: true

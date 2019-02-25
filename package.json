@@ -34,7 +34,7 @@
   ],
   "build": {
     "productName": "eos-voter",
-    "appId": "com.greymass.eos-voter",
+    "appId": "com.snax.eos-voter",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
     "files": [
@@ -139,9 +139,9 @@
     "url": "git+https://github.com/SnaxFoundation/snax-voter.git"
   },
   "author": {
-    "name": "Greymass",
-    "email": "hello@greymass.com",
-    "url": "https://github.com/greymass"
+    "name": "Snax",
+    "email": "hello@snax.com",
+    "url": "https://github.com/snax"
   },
   "license": "MIT",
   "bugs": {

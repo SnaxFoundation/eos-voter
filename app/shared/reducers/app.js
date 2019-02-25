@@ -3,10 +3,10 @@ import * as types from '../actions/types';
 
 const contractBasedFeatures = [
   // Used in retrieval of EOS Token information
-  // https://github.com/greymass/customtokens
+  // https://github.com/snax/customtokens
   'customtokens',
   // Used in retrieval of EOS Block Producer information
-  // https://github.com/greymass/producerjson
+  // https://github.com/snax/producerjson
   'producerinfo',
   // Used in retrieval of EOS Referendum Proposals
   // https://github.com/eoscanada/eosio.forum

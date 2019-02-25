@@ -15,7 +15,7 @@ If you are concerned about revealing this information to any of these 3rd party 
 
 # EOS Nodes
 
-- https://eos.greymass.com - operated by [greymass](https://greymass.com)
+- https://eos.snax.com - operated by [snax](https://snax.com)
 - https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
 - https://api.eosnewyork.io - operated by [EOS New York](https://www.eosnewyork.io/)
 - https://api.eosdetroit.io - operated by [EOS Detroit](http://eosdetroit.io/)

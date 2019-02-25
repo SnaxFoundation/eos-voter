@@ -5,9 +5,9 @@
   "description": "",
   "main": "./main.prod.js",
   "author": {
-    "name": "Greymass",
-    "email": "hello@greymass.com",
-    "url": "https://github.com/greymass"
+    "name": "Snax",
+    "email": "hello@snax.com",
+    "url": "https://github.com/snax"
   },
   "scripts": {
     "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",

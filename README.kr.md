@@ -1,7 +1,7 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
-![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
+[![version](https://img.shields.io/github/release/snax/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/snax/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snax/eos-voter/master/LICENSE)
+![downloads](https://img.shields.io/github/downloads/snax/eos-voter/total.svg)
 
 [English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md)
 
@@ -9,7 +9,7 @@
 
 `eos-voter` 는 EOS 블록 체인을 위해 한정된 기능을 갖춘 라이트 지갑입니다. 이 프로그램을 사용하여 원격 EOS API 끝점에 연결할 수 있고, 블록생산자 투표 작업 및 몇 가지 기본 지갑 명령을 수행 할 수 있습니다.
 
-[![eos-voter screenshot](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)
+[![eos-voter screenshot](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)
 
 ### 특징
 
@@ -79,7 +79,7 @@ npm run dev
 
 ### 협찬
 
-이 프로그램의 개발은 [Greymass](https://greymass.com) 팀 구성원이 이끌어 내며 이해 관계자가 EOS의 지배 구조에 참여할 수 있도록 노력하고 있습니다.
+이 프로그램의 개발은 [Snax](https://snax.com) 팀 구성원이 이끌어 내며 이해 관계자가 EOS의 지배 구조에 참여할 수 있도록 노력하고 있습니다.
 
 ### Release Signatures
 

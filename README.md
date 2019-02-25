@@ -1,7 +1,7 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
-![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
+[![version](https://img.shields.io/github/release/snax/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/snax/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snax/eos-voter/master/LICENSE)
+![downloads](https://img.shields.io/github/downloads/snax/eos-voter/total.svg)
 
 [English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md) - [Русский](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ru.md)
 
@@ -9,7 +9,7 @@
 
 `eos-voter` is a limited-functionality release of a light wallet being designed for the EOS blockchain. This application can be used to connect to a remote EOS API endpoint to perform producer voting actions and a few basic wallet commands.
 
-[![eos-voter screenshot](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)
+[![eos-voter screenshot](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)
 
 ### Features
 
@@ -91,7 +91,7 @@ npm run dev
 
 ### Credits
 
-The development of this application is being led by members of the [Greymass](https://greymass.com) team in an effort to let stakeholders participate in EOS’ governance.
+The development of this application is being led by members of the [Snax](https://snax.com) team in an effort to let stakeholders participate in EOS’ governance.
 
 ### Release Signatures
 

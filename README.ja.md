@@ -1,7 +1,7 @@
-[![version](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
-[![issues](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
-![downloads](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
+[![version](https://img.shields.io/github/release/snax/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![issues](https://img.shields.io/github/issues/snax/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snax/eos-voter/master/LICENSE)
+![downloads](https://img.shields.io/github/downloads/snax/eos-voter/total.svg)
 
 [English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md)
 
@@ -9,7 +9,7 @@
 
 `eos-voter`はEOSブロックチェーン用に設計されたライトウォレットの機能限定リリースです。このアプリケーションはEOSのリモートAPIエンドポイントに接続し、プロデューサ投票の操作と、いくつかの基本的なウォレットコマンドを実行できます。
 
-[![eos-voter screenshot](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)
+[![eos-voter screenshot](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)
 
 ### 機能
 
@@ -86,7 +86,7 @@ npm run dev
 
 ### クレジット
 
-このアプリケーションの開発は、ステークホルダーがEOSのガバナンスに参加できるようにするために、[Greymass](https://greymass.com)チームが主導しています。
+このアプリケーションの開発は、ステークホルダーがEOSのガバナンスに参加できるようにするために、[Snax](https://snax.com)チームが主導しています。
 
 ### Release Signatures
 

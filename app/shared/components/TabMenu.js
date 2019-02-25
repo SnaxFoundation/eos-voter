@@ -9,7 +9,7 @@ import GlobalBlockchainDropdown from '../containers/Global/Blockchain/Dropdown';
 import GlobalHardwareLedgerStatus from '../containers/Global/Hardware/Ledger/Status';
 import WalletLockState from './Wallet/LockState';
 import WalletMode from './Wallet/Mode';
-import logo from '../../renderer/assets/images/greymass.png';
+import logo from '../../renderer/assets/images/snax.png';
 
 class TabMenu extends Component<Props> {
   render() {
@@ -102,7 +102,7 @@ class TabMenu extends Component<Props> {
             active={activeItem === 'about'}
             onClick={handleItemClick}
           >
-            <img alt="Greymass" src={logo} />
+            <img alt="Snax" src={logo} />
           </Menu.Item>
         </Menu.Menu>
       </Menu>

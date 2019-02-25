@@ -31,7 +31,7 @@ export function historyPluginCheck() {
         break;
       }
       default: {
-        historyAccount = 'teamgreymass';
+        historyAccount = 'teamsnax';
         break;
       }
     }

@@ -1,7 +1,7 @@
-[![Версия](https://img.shields.io/github/release/greymass/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
-[![Проблемы](https://img.shields.io/github/issues/greymass/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
-[![Лицензия](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/greymass/eos-voter/master/LICENSE)
-[![Загрузки](https://img.shields.io/github/downloads/greymass/eos-voter/total.svg)
+[![Версия](https://img.shields.io/github/release/snax/eos-voter/all.svg)](https://github.com/SnaxFoundation/snax-voter/releases)
+[![Проблемы](https://img.shields.io/github/issues/snax/eos-voter.svg)](https://github.com/SnaxFoundation/snax-voter/issues)
+[![Лицензия](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snax/eos-voter/master/LICENSE)
+[![Загрузки](https://img.shields.io/github/downloads/snax/eos-voter/total.svg)
 
 [English](https://github.com/SnaxFoundation/snax-voter/blob/master/README.md) - [한글](https://github.com/SnaxFoundation/snax-voter/blob/master/README.kr.md) - [中文](https://github.com/SnaxFoundation/snax-voter/blob/master/README.zh.md) - [日本語](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ja.md) - [Русский](https://github.com/SnaxFoundation/snax-voter/blob/master/README.ru.md)
 
@@ -10,7 +10,7 @@
 `eos-voter` - это ограниченный функциональный выпуск лёгкого кошелька, предназначенного для блокцепи EOS. Это приложение может использоваться для подключения к удалённой конечной точке API EOS для голосования за производителей блоков и выполнения основных команд кошелька.
 
 
-[![eos-voter screenshot](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/greymass/eos-voter/master/eos-voter.png)
+[![eos-voter screenshot](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)](https://raw.githubusercontent.com/snax/eos-voter/master/eos-voter.png)
 
 ### Особенности
 
@@ -87,7 +87,7 @@ npm run dev
 
 ### Кредиты
 
-Разработка этого приложения ведется членами команды [Greymass] (https://greymass.com), с тем чтобы заинтересованные стороны могли участвовать в управлении EOS.
+Разработка этого приложения ведется членами команды [Snax] (https://snax.com), с тем чтобы заинтересованные стороны могли участвовать в управлении EOS.
 
 ### Подписи Выпусков
 

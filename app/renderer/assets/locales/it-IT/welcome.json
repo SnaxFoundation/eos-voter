@@ -17,7 +17,7 @@
   "welcome_connect_server": "Connect to Server",
   "welcome_created_by": "Creato da",
   "welcome_enter_account": "Confirm Account",
-  "welcome_history_plugin_warning_content": "This node appears to not have the history plugin enabled, please note that some of the features of this wallet won't work with this node. You can use 'https://snax.greymass.com', 'http://api.snaxsweden.se' or 'http://eu.snaxdac.io' if you want to take full advantage of this wallet.",
+  "welcome_history_plugin_warning_content": "This node appears to not have the history plugin enabled, please note that some of the features of this wallet won't work with this node. You can use 'https://snax.snax.com', 'http://api.snaxsweden.se' or 'http://eu.snaxdac.io' if you want to take full advantage of this wallet.",
   "welcome_history_plugin_warning_title": "This node only allows partial use of this wallet",
   "welcome_import_wallets": "Restore Backup from File",
   "welcome_instructions_2": "Inserisci il nodo a cui desideri connetterti. ",

@@ -21,7 +21,7 @@ class ProducersVotingPreviewSelection extends Component<Props> {
       submitting,
       t,
       unregisteredProducers
-    } = this.props;
+    } = this.props; 
     const unregisteredProducersSelected = intersection(selected, unregisteredProducers);
     const registeredProducersSelected = selected.filter((producer) => !unregisteredProducersSelected.includes(producer))
     const removedProducers =

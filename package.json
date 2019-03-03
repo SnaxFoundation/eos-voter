@@ -1,8 +1,8 @@
 {
-  "name": "eos-voter",
-  "productName": "eos-voter",
-  "version": "0.7.3",
-  "description": "Simple light wallet and block producer voting tool for the EOS blockchain",
+  "name": "snax-voter",
+  "productName": "snax-voter",
+  "version": "0.7.4",
+  "description": "Simple light wallet and block producer voting tool for the SNAX blockchain",
   "scripts": {
     "build": "npx concurrently \"npm run build-main\" \"npm run build-renderer\"",
     "build-dll": "npx cross-env NODE_ENV=development node --trace-warnings -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.renderer.dev.dll.js --colors",
@@ -33,8 +33,8 @@
     "not ie <= 8"
   ],
   "build": {
-    "productName": "eos-voter",
-    "appId": "com.snax.eos-voter",
+    "productName": "snax-voter",
+    "appId": "com.snax.snax-voter",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
     "files": [
@@ -85,16 +85,16 @@
       "oneClick": false,
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "shortcutName": "eos-voter"
+      "shortcutName": "snax-voter"
     },
     "linux": {
       "category": "Network",
-      "description": "Simple light wallet and block producer voting tool for the EOS blockchain",
+      "description": "Simple light wallet and block producer voting tool for the SNAX blockchain",
       "desktop": {
-        "Name": "eos-voter",
-        "GenericName": "EOS Voting Client + Wallet",
-        "X-GNOME-FullName": "eos-voter",
-        "Comment": "Simple light wallet and block producer voting tool for the EOS blockchain",
+        "Name": "snax-voter",
+        "GenericName": "SNAX Voting Client + Wallet",
+        "X-GNOME-FullName": "snax-voter",
+        "Comment": "Simple light wallet and block producer voting tool for the SNAX blockchain",
         "Type": "Application",
         "Terminal": "false",
         "StartupNotify": "false",
@@ -112,7 +112,7 @@
       ]
     },
     "snap": {
-      "synopsis": "Simple light wallet and block producer voting tool for the EOS blockchain",
+      "synopsis": "Simple light wallet and block producer voting tool for the SNAX blockchain",
       "confinement": "devmode",
       "grade": "devel",
       "buildPackages": [

@@ -113,7 +113,7 @@ class WelcomeAccountContainer extends Component<Props> {
     const {
       account
     } = this.state;
-    let buttonColor = 'blue';
+    let buttonColor = 'purple';
     let buttonText = t('welcome:welcome_lookup_account');
     let instruction = t('welcome:welcome_instructions_3');
     let input = (

@@ -40,7 +40,7 @@ class WalletPanelButtonRamBuy extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: 'blue',
+          color: 'purple',
           content: t('ram_buy_button_cta'),
           fluid: true,
           icon: 'database',

@@ -24,7 +24,7 @@ class ToolsButtonRegisterProxy extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: 'blue',
+          color: 'purple',
           content: t('tools_proxy_button_register'),
           icon: 'share square'
         }}

@@ -73,7 +73,7 @@ class ProposalsTable extends Component<Props> {
                             selectedProposal: selected ? null : proposal.proposal_name
                           });
                         }}
-                        color={selected ? 'grey' : 'blue'}
+                        color={selected ? 'grey' : 'purple'}
                       />
                     </Table.Cell>
                   </Table.Row>

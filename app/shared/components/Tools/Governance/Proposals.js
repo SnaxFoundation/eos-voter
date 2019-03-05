@@ -184,7 +184,7 @@ class ToolsGovernanceProposals extends Component<Props> {
           onChange={(e) => this.setState({ queryString: e.target.value })}
         />
         <Button
-          color={onlyVoted ? 'blue' : 'grey'}
+          color={onlyVoted ? 'purple' : 'grey'}
           content={t('tools_proposal_sort_by_vote')}
           floated="right"
           icon={onlyVoted ? 'check square outline' : 'square outline'}

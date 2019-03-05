@@ -39,7 +39,7 @@ class WalletPanelButtonWithdraw extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: "blue",
+          color: "purple",
           content: t("withdraw_send_button_cta_2"),
           fluid: true,
           icon: "arrow circle up"

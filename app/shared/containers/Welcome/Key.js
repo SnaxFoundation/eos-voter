@@ -187,7 +187,7 @@ class WelcomeKeyContainer extends Component<Props> {
         value: authority
       }
     ));
-    let buttonColor = 'blue';
+    let buttonColor = 'purple';
     let buttonIcon = 'search';
     let buttonText = t('welcome_compare_key');
     let matching = (

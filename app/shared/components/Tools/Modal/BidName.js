@@ -31,7 +31,7 @@ class ToolsModalDelegation extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: 'blue',
+          color: 'purple',
           content: t('tools_bid_name_modal_button_add'),
           floated: 'right',
           icon: 'plus'

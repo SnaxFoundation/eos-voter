@@ -59,7 +59,7 @@ class ToolsPermissions extends Component<Props> {
                 auth={false}
                 blockExplorers={blockExplorers}
                 button={{
-                  color: 'blue',
+                  color: 'purple',
                   content: t('tools_modal_permissions_auth_create_button'),
                   fluid: false,
                   icon: 'circle plus',

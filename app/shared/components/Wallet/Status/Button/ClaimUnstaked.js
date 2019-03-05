@@ -36,7 +36,7 @@ class WalletPanelButtonBroadcast extends Component<Props> {
 
     if (!button) {
       button = {
-        color: 'blue',
+        color: 'purple',
         content: t('wallet_status_resources_claim_unstaked'),
         floated: 'right',
         fluid: false,

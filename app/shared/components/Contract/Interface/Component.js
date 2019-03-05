@@ -138,7 +138,7 @@ class ContractInterfaceComponent extends Component<Props> {
           ? (
             (
               <Segment
-                color="blue"
+                color="purple"
                 content={(
                   <React.Fragment>
                     <Header>

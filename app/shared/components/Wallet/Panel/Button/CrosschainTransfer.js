@@ -39,7 +39,7 @@ class WalletPanelButtonCrosschainTransfer extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: "blue",
+          color: "purple",
           content: t("crosschain_transfer_button_cta_2"),
           fluid: true,
           icon: "arrow circle up"

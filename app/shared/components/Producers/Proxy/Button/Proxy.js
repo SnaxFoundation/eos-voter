@@ -35,7 +35,7 @@ class ProducersButtonProxy extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: 'blue',
+          color: 'purple',
           content: buttonText,
           fluid: true,
           icon: 'share square'

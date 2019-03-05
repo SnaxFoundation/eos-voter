@@ -52,7 +52,7 @@ class WalletPanelButtonStake extends Component<Props> {
         actions={actions}
         blockExplorers={blockExplorers}
         button={{
-          color: 'blue',
+          color: 'purple',
           content: t('stake_button_text', { chainSymbol: connection.chainSymbol }),
           fluid: true,
           icon: 'microchip',

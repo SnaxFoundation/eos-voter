@@ -44,7 +44,7 @@ class ProxiesTableRow extends Component<Props> {
             position="right center"
             trigger={(
               <Button
-                color={isSelected ? 'blue' : 'grey'}
+                color={isSelected ? 'purple' : 'grey'}
                 icon={isSelected ? 'circle' : 'circle outline'}
                 disabled={!isValidUser}
                 onClick={

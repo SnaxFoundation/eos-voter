@@ -36,7 +36,9 @@ class Welcome extends Component<Props> {
   };
 
   completeLedgerImport = (account, authorization) => {
-    const { actions, connection, history, settings } = this.props;
+    const {
+      actions, connection, history, settings
+    } = this.props;
     const { setSetting } = actions;
     setSetting('account', account);
     setSetting('authorization', authorization);
@@ -61,8 +63,7 @@ class Welcome extends Component<Props> {
         authorization: undefined,
         chainId: undefined,
         node: undefined,
-      })
-    );
+      }));
 
   setupAdvanced = () =>
     this.setState({ advancedSetup: true }, () =>
@@ -71,8 +72,7 @@ class Welcome extends Component<Props> {
         authorization: undefined,
         chainId: undefined,
         node: undefined,
-      })
-    );
+      }));
 
   skipImport = () => {
     const { actions, history, settings } = this.props;
@@ -87,14 +87,7 @@ class Welcome extends Component<Props> {
 
   render() {
     const {
-      actions,
-      i18n,
-      keys,
-      ledger,
-      settings,
-      status,
-      t,
-      validate,
+      actions, i18n, keys, ledger, settings, status, t, validate
     } = this.props;
     const { advancedSetup, hardwareLedgerImport, stageSelect } = this.state;
     let stage = 0;
@@ -117,11 +110,7 @@ class Welcome extends Component<Props> {
       stage = stageSelect;
     }
     let stageElement = (
-      <WelcomeConnection
-        onStageSelect={this.onStageSelect}
-        settings={settings}
-        stage={stage}
-      />
+      <WelcomeConnection onStageSelect={this.onStageSelect} settings={settings} stage={stage} />
     );
     if (stage >= 1) {
       // stageElement = <WelcomePath onStageSelect={this.onStageSelect} stage={stage} />;;
@@ -133,20 +122,10 @@ class Welcome extends Component<Props> {
             stage={stage}
           />
         );
-        if (
-          stage >= 3 &&
-          (settings.walletMode === 'cold' || validate.ACCOUNT === 'SUCCESS')
-        ) {
-          stageElement = (
-            <WelcomeKey onStageSelect={this.onStageSelect} stage={stage} />
-          );
-          if (
-            stage === 4 &&
-            (settings.walletMode === 'cold' || validate.KEY === 'SUCCESS')
-          ) {
-            stageElement = (
-              <WelcomeWallet onStageSelect={this.onStageSelect} stage={stage} />
-            );
+        if (stage >= 3 && (settings.walletMode === 'cold' || validate.ACCOUNT === 'SUCCESS')) {
+          stageElement = <WelcomeKey onStageSelect={this.onStageSelect} stage={stage} />;
+          if (stage === 4 && (settings.walletMode === 'cold' || validate.KEY === 'SUCCESS')) {
+            stageElement = <WelcomeWallet onStageSelect={this.onStageSelect} stage={stage} />;
           }
         }
       }
@@ -182,12 +161,8 @@ class Welcome extends Component<Props> {
           `}
         </style>
         <Grid textAlign="center" style={{ height: '100%' }}>
-          <Grid.Column
-            style={{ maxWidth: 450 }}
-            textAlign="left"
-            verticalAlign="middle"
-          >
-            <Header color="teal" textAlign="center">
+          <Grid.Column style={{ maxWidth: 450 }} textAlign="left" verticalAlign="middle">
+            <Header textAlign="center">
               <Image src={snax} />
               <Header.Content>
                 {t('application_name')}
@@ -229,8 +204,7 @@ class Welcome extends Component<Props> {
                 false
               )}
               {!hardwareLedgerImport &&
-              (stage === 1 ||
-                (stage === 2 && validate.ACCOUNT !== 'SUCCESS')) &&
+              (stage === 1 || (stage === 2 && validate.ACCOUNT !== 'SUCCESS')) &&
               !settings.walletInit &&
               settings.walletMode !== 'cold' ? (
                 <p>

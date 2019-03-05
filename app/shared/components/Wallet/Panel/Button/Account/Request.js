@@ -37,7 +37,7 @@ class WalletPanelButtonAccountRequest extends Component<Props> {
         system={system}
         trigger={(
           <Button
-            color="blue"
+            color="purple"
             content={t('global_account_request_account')}
             icon="users circle"
             onClick={this.onOpen}

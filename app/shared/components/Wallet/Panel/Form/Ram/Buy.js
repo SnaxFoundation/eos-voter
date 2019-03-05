@@ -258,7 +258,7 @@ class WalletPanelFormRamBuy extends Component<Props> {
                 />
                 <Button
                   content={t('ram_form_button_buy')}
-                  color="green"
+                  color="purple"
                   disabled={submitDisabled}
                   floated="right"
                   primary

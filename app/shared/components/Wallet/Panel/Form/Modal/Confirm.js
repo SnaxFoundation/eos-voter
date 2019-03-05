@@ -42,7 +42,7 @@ export default class WalletPanelFormModalConfirm extends Component<Props> {
                 button ||
                 (
                   <Button
-                    color="blue"
+                    color="purple"
                     content={buttonText || t('wallet_panel_password_confirm_button')}
                     floated="right"
                     disabled={disabled}
@@ -78,7 +78,7 @@ export default class WalletPanelFormModalConfirm extends Component<Props> {
                   <Icon name="x" /> {t('cancel')}
                 </Button>
                 <Button
-                  color="green"
+                  color="purple"
                   disabled={!matches}
                   onClick={onSubmit}
                 >

@@ -47,7 +47,7 @@ class ToolsFormProxyinfoConfirming extends Component<Props> {
           <Icon name="arrow left" /> {t('tools_form_proxy_info_confirming_back')}
         </Button>
         <Button
-          color="blue"
+          color="purple"
           floated="right"
           onClick={this.onConfirm}
         >

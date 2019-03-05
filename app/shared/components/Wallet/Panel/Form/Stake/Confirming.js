@@ -134,7 +134,7 @@ class WalletPanelFormStakeConfirming extends Component<Props> {
             <Icon name="arrow left" /> {t('back')}
           </Button>
           <Button
-            color="blue"
+            color="purple"
             floated="right"
             onClick={this.onConfirm}
           >

@@ -129,7 +129,7 @@ class GlobalModalAccountImportWatch extends Component<Props> {
                 width={12}
               />
               <Form.Button
-                color="blue"
+                color="purple"
                 content={t('find')}
                 disabled={!valid}
                 fluid
@@ -211,7 +211,7 @@ class GlobalModalAccountImportWatch extends Component<Props> {
             <Icon name="x" /> {t('cancel')}
           </Button>
           <Button
-            color="green"
+            color="purple"
             content={t('global_button_account_import_action')}
             disabled={selected.length === 0}
             floated="right"

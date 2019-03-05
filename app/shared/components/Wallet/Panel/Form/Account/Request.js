@@ -69,7 +69,7 @@ class WalletPanelFormAccountRequest extends Component<Props> {
           ) : ''}
         <Container textAlign="right">
           <Form.Button
-            color="blue"
+            color="purple"
             content={t('next')}
             disabled={!isValid}
           />

@@ -121,7 +121,7 @@ class GlobalModalAccountImportCold extends Component<Props> {
             settings={settings}
             trigger={(
               <Button
-                color="green"
+                color="purple"
                 content={t('global_button_account_import_action')}
                 disabled={disabled}
                 floated="right"

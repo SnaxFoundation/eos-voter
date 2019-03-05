@@ -42,7 +42,7 @@ class ProducersFormProxyConfirming extends Component<Props> {
         }
         <Divider style={{ marginTop: '40px' }} />
         <Button
-          color="green"
+          color="purple"
           floated="right"
           onClick={this.onConfirm}
           content={t('producers_form_proxy_confirm')}

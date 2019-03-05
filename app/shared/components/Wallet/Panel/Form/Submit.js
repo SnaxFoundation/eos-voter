@@ -44,7 +44,7 @@ export default class WalletPanelFormAccount extends Component<Props> {
                 <Button
                   disabled={!validUser}
                   content={t('wallet_panel_form_use_temporary')}
-                  color="green"
+                  color="purple"
                   fluid
                 />
               </Segment>

@@ -46,13 +46,13 @@ class ToolsKeys extends Component<Props> {
           warning
         />
         <Button
-          color="green"
+          color="purple"
           content={t('tools_keys_key_generation_new_key')}
           icon="plus"
           onClick={this.generateKeyPair}
         />
         <Button
-          color="blue"
+          color="purple"
           content={t('tools_keys_key_generation_copy_clipboard')}
           icon="clipboard"
           onClick={this.copyToClipboard}

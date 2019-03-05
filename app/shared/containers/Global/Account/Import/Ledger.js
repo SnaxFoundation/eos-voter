@@ -302,7 +302,7 @@ class GlobalModalAccountImportLedger extends Component<Props> {
             <Icon name="x" /> {t('cancel')}
           </Button>
           <Button
-            color="green"
+            color="purple"
             content={t('global_button_account_import_action')}
             disabled={selected.length === 0}
             floated="right"

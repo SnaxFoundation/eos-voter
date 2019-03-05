@@ -61,7 +61,7 @@ class ToolsFormBidNameConfirming extends Component<Props> {
           <Icon name="arrow left" /> {t('tools_form_bid_name_confirming_back')}
         </Button>
         <Button
-          color="blue"
+          color="purple"
           floated="right"
           onClick={this.onConfirm}
         >

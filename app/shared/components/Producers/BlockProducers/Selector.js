@@ -45,7 +45,7 @@ class ProducersSelector extends Component<Props> {
     }
     listItems.push(
       <List.Item key="selectedHeader">
-        <Header color="blue" textAlign="center">
+        <Header color="purple" textAlign="center">
           {(isProxying) ? t('producer_voter_proxying_vote') : false}
           <Header.Subheader>
             {validSelected.length}/30 {t('producer_voter_votes_used')}

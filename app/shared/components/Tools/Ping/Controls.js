@@ -40,7 +40,7 @@ class ToolsPingControls extends Component<Props> {
         {(!run && results > 0)
           ? (
             <Button
-              color="green"
+              color="purple"
               content={t('button_resume')}
               icon="play"
               onClick={onResume}

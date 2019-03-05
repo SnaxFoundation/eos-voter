@@ -90,7 +90,7 @@ class WelcomeImportContainer extends Component<Props> {
     } = this.props;
     return (
       <Button
-        color="blue"
+        color="purple"
         content={t('welcome:welcome_import_wallets')}
         icon="save"
         onClick={this.import}

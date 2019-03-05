@@ -49,7 +49,7 @@ class ToolsFormRegisterProxy extends Component<Props> {
             />
             <Button
               content={t('tools_proxy_form_button_register')}
-              color="green"
+              color="purple"
               floated="right"
               primary
             />

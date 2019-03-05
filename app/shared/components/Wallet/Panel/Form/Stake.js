@@ -327,7 +327,7 @@ class WalletPanelFormStake extends Component<Props> {
                 />
                 <Button
                   content={t('update_staked_coins')}
-                  color="green"
+                  color="purple"
                   disabled={submitDisabled}
                   floated="right"
                   primary

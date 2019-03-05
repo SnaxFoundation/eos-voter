@@ -108,7 +108,7 @@ class ColdWalletTransaction extends Component<Props> {
             {(signed)
               ? (
                 <Button
-                  color="green"
+                  color="purple"
                   content={t('collwallet_transaction_sign_save_again')}
                   icon="save"
                   onClick={() => this.saveFile(transaction)}

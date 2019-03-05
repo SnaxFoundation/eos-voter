@@ -63,7 +63,7 @@ class WalletPanelButtonBroadcast extends Component<Props> {
               content={t('wallet_status_resources_to_unstake', { totalBeingUnstaked, chainSymbol })}
             />
             <Button
-              color="blue"
+              color="purple"
               content={t('wallet_status_resources_claim_unstaked')}
               onClick={this.claimUnstaked}
             />

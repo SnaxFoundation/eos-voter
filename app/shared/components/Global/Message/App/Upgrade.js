@@ -25,7 +25,7 @@ class GlobalMessageAppUpgrade extends Component<Props> {
     return (
       <React.Fragment>
         <Segment basic size="large" textAlign="center">
-          <Header color="blue" icon size="large">
+          <Header color="purple" icon size="large">
             <Icon name="info circle" />
             <Header.Content>
               {t('global_app_requires_upgrade_header', { new: constants.version })}
@@ -46,7 +46,7 @@ class GlobalMessageAppUpgrade extends Component<Props> {
           <p>
             <Button
               content="Upgrade"
-              color="blue"
+              color="purple"
               icon="up arrow"
               onClick={this.checkForUpdates}
               size="large"

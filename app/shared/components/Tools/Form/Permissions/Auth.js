@@ -182,7 +182,7 @@ class ToolsFormPermissionsAuth extends Component<Props> {
           ? (
             <Button
               content={t('tools_form_permissions_auth_add_key')}
-              color="green"
+              color="purple"
               floated="right"
               icon="circle plus"
               loading={isPending}

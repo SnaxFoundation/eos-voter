@@ -40,7 +40,7 @@ class GlobalModalSettingsCustomTokensConfirm extends Component<Props> {
         </Table>
         <Container textAlign="center">
           <Button
-            color="green"
+            color="purple"
             content={t('global_modal_settings_customtoken_confirm')}
             onClick={onSubmit}
           />

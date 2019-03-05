@@ -79,14 +79,14 @@ class ProducersProxy extends Component<Props> {
           ? (
             <div>
               <Button
-                color="green"
+                color="purple"
                 content={t('producers_panel_refresh_proxy')}
                 fluid
                 icon="sync"
                 onClick={this.onRefreshClick}
                 style={{ marginTop: '1em' }}
               />
-              <Header block color="blue" size="large">
+              <Header block color="purple" size="large">
                 <Icon name="circle info" />
                 <Header.Content>
                   <Header.Subheader>

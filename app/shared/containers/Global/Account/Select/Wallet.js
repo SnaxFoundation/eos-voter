@@ -169,7 +169,7 @@ class GlobalAccountSelectWallet extends Component<Props> {
                             settings={settings}
                             trigger={(
                               <Button
-                                color="green"
+                                color="purple"
                                 content={t('tools:tools_wallets_swap')}
                                 icon="random"
                               />
@@ -183,7 +183,7 @@ class GlobalAccountSelectWallet extends Component<Props> {
                       {(['ledger', 'watch'].includes(mode))
                         ? (
                           <Button
-                            color="green"
+                            color="purple"
                             content={t('tools:tools_wallets_swap')}
                             icon="random"
                             onClick={() => this.swapAccount(chainId, w.account, w.authorization)}

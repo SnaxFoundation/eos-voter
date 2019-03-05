@@ -249,7 +249,7 @@ class WalletPanelFormRamSell extends Component<Props> {
                 />
                 <Button
                   content={t('ram_form_button_sell')}
-                  color="green"
+                  color="purple"
                   disabled={submitDisabled}
                   floated="right"
                   primary

@@ -161,7 +161,7 @@ class WalletModalContentBroadcast extends Component<Props> {
                             </Header.Subheader>
                           </Header>
                           <Button
-                            color="green"
+                            color="purple"
                             content={t('broadcast_transaction_import_file')}
                             icon="upload"
                             onClick={this.importFile}
@@ -186,7 +186,7 @@ class WalletModalContentBroadcast extends Component<Props> {
                             placeholder={t('broadcast_transaction_import_json_label')}
                           />
                           <Button
-                            color="blue"
+                            color="purple"
                             content={t('broadcast_transaction_import_json')}
                             icon="paste"
                             onClick={this.handleImport}

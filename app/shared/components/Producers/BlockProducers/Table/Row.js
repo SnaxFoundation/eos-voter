@@ -8,10 +8,10 @@ import DangerLink from '../../../Global/Modal/DangerLink';
 import ProducersVoteWeight from '../Vote/Weight';
 
 class ProducersTableRow extends Component<Props> {
-  shouldComponentUpdate = (nextProps) =>
-    !isEqual(this.props.producer.key, nextProps.producer.key)
-    || !isEqual(this.props.isValidUser, nextProps.isValidUser)
-    || !isEqual(this.props.isSelected, nextProps.isSelected);
+  shouldComponentUpdate = nextProps =>
+    !isEqual(this.props.producer.key, nextProps.producer.key) ||
+    !isEqual(this.props.isValidUser, nextProps.isValidUser) ||
+    !isEqual(this.props.isSelected, nextProps.isSelected);
 
   render() {
     const {
@@ -28,54 +28,41 @@ class ProducersTableRow extends Component<Props> {
       removeProducer,
       settings,
       t,
-      totalVoteWeight
+      totalVoteWeight,
     } = this.props;
 
     const epoch = 946684800000;
-    const lastProduced = (producer.last_produced_block_time * 500) + epoch;
-    const isActive = (Date.now() - lastProduced) < 1000;
-    const votePercent = (totalVoteWeight)
+    const lastProduced = producer.last_produced_block_time * 500 + epoch;
+    const isActive = Date.now() - lastProduced < 1000;
+    const votePercent = totalVoteWeight
       ? ((parseInt(producer.votes, 10) / parseInt(totalVoteWeight, 10)) * 100).toFixed(2)
       : 0;
-    const voteFormatted = (producer.votes > 0)
-      ? (
-        <ProducersVoteWeight
-          weight={producer.votes}
-        />
-      )
-      : 'None';
-    const shouldDisplayInfoButton = connection.supportedContracts && connection.supportedContracts.includes('producerinfo');
+    const voteFormatted =
+      producer.votes > 0 ? <ProducersVoteWeight weight={producer.votes} /> : 'None';
+    const shouldDisplayInfoButton =
+      connection.supportedContracts && connection.supportedContracts.includes('producerinfo');
     return (
       <Table.Row positive={isActive} key={producer.key}>
-        <Table.Cell
-          singleLine
-          textAlign="center"
-        >
-          {(shouldDisplayInfoButton) && (
+        <Table.Cell singleLine textAlign="center">
+          {shouldDisplayInfoButton && (
             <span>
-              {(hasInfo)
-                ? (
-                  <Button
-                    color="purple"
-                    icon="magnify"
-                    onClick={() => getProducerInfo(producer.owner)}
-                    size="small"
-                  />
-                ) : (
-                  <Popup
-                    content={t('producer_json_unavailable_content')}
-                    header={t('producer_json_unavailable_header')}
-                    hoverable
-                    inverted
-                    position="left center"
-                    trigger={
-                      (isMainnet)
-                      ? <Button icon="magnify" size="small" />
-                      : false
-                    }
-                  />
-                )
-              }
+              {hasInfo ? (
+                <Button
+                  color="purple"
+                  icon="magnify"
+                  onClick={() => getProducerInfo(producer.owner)}
+                  size="small"
+                />
+              ) : (
+                <Popup
+                  content={t('producer_json_unavailable_content')}
+                  header={t('producer_json_unavailable_header')}
+                  hoverable
+                  inverted
+                  position="left center"
+                  trigger={isMainnet ? <Button icon="magnify" size="small" /> : false}
+                />
+              )}
             </span>
           )}
 
@@ -84,31 +71,32 @@ class ProducersTableRow extends Component<Props> {
             header={t('producer_vote_header', { producer: producer.owner })}
             hoverable
             position="right center"
-            trigger={(
+            trigger={
               <Button
                 color={isSelected ? 'blue' : 'grey'}
                 disabled={!isValidUser || isProxying}
                 icon={isSelected ? 'checkmark box' : 'minus square outline'}
                 onClick={
-                  (isSelected)
-                  ? () => removeProducer(producer.owner)
-                  : () => addProducer(producer.owner)
+                  isSelected
+                    ? () => removeProducer(producer.owner)
+                    : () => addProducer(producer.owner)
                 }
                 size="small"
               />
-            )}
+            }
           />
         </Table.Cell>
-        <Table.Cell
-          singleLine
-        >
-          <b>{ position }</b>
+        <Table.Cell singleLine>
+          <b>{position}</b>
         </Table.Cell>
-        <Table.Cell
-          singleLine
-        >
+        <Table.Cell singleLine>
           <Header size="small">
-            <span styles={{ fontFamily: '"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace' }}>
+            <span
+              styles={{
+                fontFamily:
+                  '"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace',
+              }}
+            >
               {producer.owner}
             </span>
             <Header.Subheader>
@@ -120,58 +108,43 @@ class ProducersTableRow extends Component<Props> {
             </Header.Subheader>
           </Header>
         </Table.Cell>
-        <Table.Cell
-          singleLine
-        >
+        <Table.Cell singleLine>
           <Progress
-            color="teal"
-            label={(
+            color="purple"
+            label={
               <div className="label">
                 {votePercent}%
                 <Responsive as="span" minWidth={800}>
                   - {voteFormatted}
                 </Responsive>
               </div>
-            )}
+            }
             percent={parseFloat(votePercent * 100) / 100}
             size="tiny"
             style={{ minWidth: 0 }}
           />
         </Table.Cell>
-        <Table.Cell
-          singleLine
-        >
-          {(position < 22)
-          ? (
+        <Table.Cell singleLine>
+          {position < 22 ? (
             <Popup
               content={t('active_producer')}
               inverted
               position="left center"
-              trigger={(
-                <Icon
-                  color="green"
-                  name="cubes"
-                />
-              )}
+              trigger={<Icon color="green" name="cubes" />}
             />
-            ) : false
-          }
-          {(producer.isBackup && position > 21)
-          ? (
+          ) : (
+            false
+          )}
+          {producer.isBackup && position > 21 ? (
             <Popup
               content={t('backup_producer')}
               inverted
               position="left center"
-              trigger={(
-                <Icon
-                  color="yellow"
-                  name="cube"
-                />
-              )}
+              trigger={<Icon color="yellow" name="cube" />}
             />
-            ) : ''
-          }
-
+          ) : (
+            ''
+          )}
         </Table.Cell>
       </Table.Row>
     );

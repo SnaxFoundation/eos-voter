@@ -44,7 +44,7 @@ class WalletPanelFormRamBuyConfirming extends Component<Props> {
                 <span>{t('ram_sell_confirming_message_one')}</span>
               )}
 
-            <font color="green">
+            <font color="purple">
               <GlobalDataBytes
                 bytes={Number(ramAmount)}
               />
@@ -87,7 +87,7 @@ class WalletPanelFormRamBuyConfirming extends Component<Props> {
           <Icon name="arrow left" /> {t('ram_button_confirm_back')}
         </Button>
         <Button
-          color="blue"
+          color="purple"
           floated="right"
           onClick={this.onConfirm}
         >

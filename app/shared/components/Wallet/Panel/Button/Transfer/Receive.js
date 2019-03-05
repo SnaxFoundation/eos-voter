@@ -32,7 +32,7 @@ class WalletPanelButtonTransferReceive extends Component<Props> {
         open={open}
         trigger={(
           <Button
-            color="blue"
+            color="purple"
             content={t('transfer_receive_button_cta')}
             fluid
             icon="arrow circle down"

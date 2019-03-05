@@ -243,7 +243,7 @@ class ToolsFormCreateBitsharesEosAccount extends Component<Props> {
 
                   <Button
                     content={t('tools_form_create_account_button')}
-                    color="green"
+                    color="purple"
                     disabled={submitDisabled}
                     floated="right"
                     primary
@@ -293,7 +293,7 @@ class ToolsFormCreateBitsharesEosAccount extends Component<Props> {
                 <Icon name="arrow left" /> {t('tools_form_create_account_back')}
               </Button>
               <Button
-                color="blue"
+                color="purple"
                 floated="right"
                 onClick={this.onConfirm}
               >

@@ -46,7 +46,7 @@ class ToolsSystemLog extends Component<Props> {
         </p>
 
         <Button
-          color="blue"
+          color="purple"
           content={t('tools_system_log_save_file')}
           icon="download"
           onClick={this.promptSave}

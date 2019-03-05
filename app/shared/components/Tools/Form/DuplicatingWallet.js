@@ -167,7 +167,7 @@ class ToolsFormDuplicatingWallet extends Component<Props> {
           <Segment basic clearing>
             <Button
               content={t('tools_form_duplicate_duplicate')}
-              color="green"
+              color="purple"
               disabled={disabled}
               floated="right"
               primary

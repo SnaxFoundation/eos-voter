@@ -87,7 +87,7 @@ class ToolsPermissions extends Component<Props> {
           info
         />
         <Segment
-          color="blue"
+          color="purple"
         >
           {(settings.walletMode === 'watch')
             ? (

@@ -151,7 +151,7 @@ class ToolsGovernanceProposalsProposal extends Component<Props> {
             }}
             confirm={(
               <Button
-                color="blue"
+                color="purple"
                 content={t('confirm')}
                 disabled={isSupporting}
                 floated="right"
@@ -179,7 +179,7 @@ class ToolsGovernanceProposalsProposal extends Component<Props> {
             }}
             confirm={(
               <Button
-                color="blue"
+                color="purple"
                 content={t('confirm')}
                 disabled={isAgainst}
                 floated="right"
@@ -207,7 +207,7 @@ class ToolsGovernanceProposalsProposal extends Component<Props> {
             }}
             confirm={(
               <Button
-                color="blue"
+                color="purple"
                 content={t('confirm')}
                 disabled={!voted}
                 floated="right"

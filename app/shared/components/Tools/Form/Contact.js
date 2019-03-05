@@ -185,7 +185,7 @@ class ToolsFormContact extends Component<Props> {
         <Segment basic clearing>
           <Button
             content={t('tools_form_contact_submit')}
-            color="green"
+            color="purple"
             disabled={submitDisabled}
             floated="right"
             primary

@@ -46,7 +46,7 @@ class GlobalModalSettingsCustomTokensForm extends Component<Props> {
         />
         <Container textAlign="center">
           <Button
-            color="green"
+            color="purple"
             content={t('global_modal_settings_customtoken_add')}
           />
         </Container>

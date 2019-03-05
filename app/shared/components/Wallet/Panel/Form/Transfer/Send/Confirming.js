@@ -78,7 +78,7 @@ class WalletPanelFormTransferSendConfirming extends Component<Props> {
         />
         <Divider />
         <Button
-          color="green"
+          color="purple"
           content={(waiting) ? `${t('confirm')} (${secondsRemaining})` : t('confirm')}
           disabled={waiting}
           floated="right"

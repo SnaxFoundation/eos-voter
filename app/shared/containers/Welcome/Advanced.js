@@ -53,7 +53,7 @@ class WelcomeAdvancedContainer extends Component<Props> {
             subheader={t('welcome_cold_wallet_subheader')}
           />
           <Button
-            color="blue"
+            color="purple"
             content={t('welcome_use_coldwallet')}
             icon="snowflake"
             onClick={this.useColdWallet}

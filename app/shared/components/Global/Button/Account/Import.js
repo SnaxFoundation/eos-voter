@@ -30,7 +30,7 @@ class GlobalButtonAccountImport extends Component<Props> {
         settings={settings}
         trigger={(
           <Button
-            color="blue"
+            color="purple"
             content={t('global_button_account_import_action')}
             icon="circle plus"
             onClick={this.onOpen}

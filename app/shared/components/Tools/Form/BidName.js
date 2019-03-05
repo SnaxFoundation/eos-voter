@@ -354,7 +354,7 @@ class ToolsFormBidName extends Component<Props> {
                     ? (
                       <Button
                         content={t('tools_form_proxy_info_next')}
-                        color="green"
+                        color="purple"
                         disabled={secondStepDisabled}
                         floated="right"
                         onClick={this.handleNextStep}
@@ -368,7 +368,7 @@ class ToolsFormBidName extends Component<Props> {
                         />
                         <Button
                           content={t('tools_form_proxy_info_next')}
-                          color="green"
+                          color="purple"
                           disabled={submitDisabled}
                           floated="right"
                           primary

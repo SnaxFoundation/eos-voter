@@ -118,7 +118,7 @@ class GlobalButtonElevate extends Component<Props> {
             <Icon name="x" /> {t('cancel')}
           </Button>
           <Button
-            color="green"
+            color="purple"
             content={t('global_button_elevate')}
             disabled={pending}
             loading={pending}

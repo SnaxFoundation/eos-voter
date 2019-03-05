@@ -258,7 +258,7 @@ class ToolsTableRowWallet extends Component<Props> {
                 settings={settings}
                 trigger={(
                   <Button
-                    color="green"
+                    color="purple"
                     content={t('tools_wallets_swap')}
                     disabled={isCurrentWallet}
                     icon="random"
@@ -273,7 +273,7 @@ class ToolsTableRowWallet extends Component<Props> {
           {(mode === 'watch' || mode === 'ledger')
             ? (
               <Button
-                color="green"
+                color="purple"
                 content={t('tools_wallets_swap')}
                 disabled={isCurrentWallet}
                 icon="random"

@@ -56,7 +56,7 @@ export default class WalletModalUnlock extends Component<Props> {
                   <Icon name="x" /> {t('cancel')}
                 </Button>
                 <Button
-                  color="green"
+                  color="purple"
                   content={t('wallet_panel_wallet_unlock')}
                   icon="unlock"
                   onClick={onSubmit}

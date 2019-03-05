@@ -156,7 +156,7 @@ class WalletStatusBalances extends Component<Props> {
                 inverted
                 trigger={(
                   <Button
-                    color="blue"
+                    color="purple"
                     content={t('wallet_status_add_custom_token_action')}
                     floated="right"
                     size="small"

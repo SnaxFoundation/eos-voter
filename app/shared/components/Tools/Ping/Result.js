@@ -212,7 +212,7 @@ class ToolsPingResult extends Component<Props> {
             ? (
               <Button
                 basic
-                color="blue"
+                color="purple"
                 content={t('result_current_api')}
                 size="small"
               />

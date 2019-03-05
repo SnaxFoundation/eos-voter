@@ -119,7 +119,7 @@ class ToolsContacts extends Component<Props> {
           onSuccess={this.onSuccess}
           trigger={
             <Button
-              color="blue"
+              color="purple"
               content={t('tools_contact_button_add')}
               icon="plus circle"
               style={{ float: 'right' }}

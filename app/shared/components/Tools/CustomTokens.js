@@ -104,7 +104,7 @@ class ToolsCustomTokens extends Component<Props> {
           {(blockchain.supportedContracts.includes('customtokens'))
             ? (
               <Button
-                color="green"
+                color="purple"
                 content={t('tools_customtokens_scan')}
                 icon="search"
                 onClick={this.scan}
@@ -127,7 +127,7 @@ class ToolsCustomTokens extends Component<Props> {
             )
           }
           <Button
-            color="blue"
+            color="purple"
             content={t('wallet:wallet_status_add_custom_token_action')}
             floated="right"
             icon="circle plus"

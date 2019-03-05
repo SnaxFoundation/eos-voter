@@ -36,7 +36,7 @@ class WelcomePathContainer extends Component<Props> {
           <Container textAlign="center">
             <Button
               content={t('welcome_path_have_account_button')}
-              color="blue"
+              color="purple"
               onClick={() => onStageSelect(2)}
             />
           </Container>

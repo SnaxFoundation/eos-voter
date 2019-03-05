@@ -99,7 +99,7 @@ class ProducersVotingPreviewSelection extends Component<Props> {
             <Icon name="x" /> {t('cancel')}
           </Button>
           <Button
-            color="green"
+            color="purple"
             floated="right"
             onClick={onConfirm}
           >

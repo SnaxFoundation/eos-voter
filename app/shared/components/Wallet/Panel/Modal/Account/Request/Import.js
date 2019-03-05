@@ -56,7 +56,7 @@ class WalletPanelModalAccountRequestImport extends Component<Props> {
         </Form>
         <Divider hidden />
         <Button
-          color="blue"
+          color="purple"
           content={t('wallet_account_request_import_button')}
           disabled={!importAccount}
           floated="right"

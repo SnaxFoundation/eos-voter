@@ -108,7 +108,7 @@ class ToolsFormCreateAccountConfirming extends Component<Props> {
           <Icon name="arrow left" /> {t('tools_form_create_account_back')}
         </Button>
         <Button
-          color="blue"
+          color="purple"
           floated="right"
           onClick={this.onConfirm}
         >

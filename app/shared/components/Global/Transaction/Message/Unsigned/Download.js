@@ -67,21 +67,21 @@ class GlobalTransactionMessageUnsignedDownload extends Component<Props> {
             />
             <Segment basic textAlign="center">
               <Button
-                color="blue"
+                color="purple"
                 content={t('global_transaction_unsigned_save_file')}
                 icon="download"
                 onClick={this.promptSave}
                 style={{ marginBottom: '1em' }}
               />
               <Button
-                color="teal"
+                color="purple"
                 content={t('global_transaction_unsigned_copy_to_clipboard')}
                 icon={(copiedTransaction) ? "circle check" : "clipboard"}
                 onClick={this.onCopy}
               />
               {(copiedTransaction) && (
                 <Message
-                  color="teal"
+                  color="purple"
                   content={t('global_transaction_unsigned_copied')}
                   icon="check"
                 />
@@ -104,7 +104,7 @@ class GlobalTransactionMessageUnsignedDownload extends Component<Props> {
         </Modal.Content>
         <Modal.Actions>
           <Segment basic clearing>
-            <Button color="green" floated="right" onClick={onClose}>
+            <Button color="purple" floated="right" onClick={onClose}>
               <Icon name="checkmark" /> {t('close')}
             </Button>
           </Segment>

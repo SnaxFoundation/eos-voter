@@ -34,7 +34,7 @@ class ToolsPingLoader extends Component<Props> {
             {nodes} APIs
             <p><small>{t('loader_message_1')}</small></p>
             <Progress
-              color="blue"
+              color="purple"
               indicating
               inverted
               label={(

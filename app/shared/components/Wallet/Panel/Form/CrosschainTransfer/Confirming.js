@@ -75,7 +75,7 @@ class WalletPanelCrosschainTransferConfirming extends Component<Props> {
         </Table>
         <Divider />
         <Button
-          color="green"
+          color="purple"
           content={
             waiting ? `${t("confirm")} (${secondsRemaining})` : t("confirm")
           }

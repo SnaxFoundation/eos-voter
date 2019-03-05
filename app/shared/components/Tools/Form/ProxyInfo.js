@@ -213,7 +213,7 @@ class ToolsFormProxyInfo extends Component<Props> {
                     <Segment basic clearing>
                       <Button
                         content={t('tools_form_proxy_info_button')}
-                        color="green"
+                        color="purple"
                         disabled={submitDisabled}
                         floated="right"
                         primary

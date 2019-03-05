@@ -108,7 +108,7 @@ class GlobalTransactionMessageSuccess extends Component<Props> {
           {(!hideClose)
             ? (
               <Segment basic clearing>
-                <Button color="green" floated="right" onClick={onClose}>
+                <Button color="purple" floated="right" onClick={onClose}>
                   <Icon name="checkmark" /> {t('close')}
                 </Button>
               </Segment>

@@ -62,7 +62,7 @@ class GlobalBlockchainImport extends Component<Props> {
                   <Icon name="left arrow circle" /> {t('back')}
                 </Button>
                 <Button
-                  color="blue"
+                  color="purple"
                   content={t('save')}
                   floated="right"
                   icon="save"
@@ -87,7 +87,7 @@ class GlobalBlockchainImport extends Component<Props> {
                   <Icon name="x" /> {t('cancel')}
                 </Button>
                 <Button
-                  color="blue"
+                  color="purple"
                   content={t('connect')}
                   floated="right"
                   icon="plug"

@@ -67,7 +67,7 @@ class WalletPanelModalAccountRequestCode extends Component<Props> {
         {(onNext)
           ? (
             <Button
-              color="blue"
+              color="purple"
               content={t('next')}
               disabled={!copied}
               onClick={onNext}

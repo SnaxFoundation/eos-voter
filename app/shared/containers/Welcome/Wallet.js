@@ -156,7 +156,7 @@ class WelcomeWalletContainer extends Component<Props> {
           <Container key="controls">
             <Button
               content={t('wallet_panel_form_use_temporary')}
-              color="green"
+              color="purple"
               floated="right"
               onClick={this.onComplete}
             />

@@ -479,7 +479,7 @@ class ToolsFormCreateAccount extends Component<Props> {
 
                   <Button
                     content={t('tools_form_create_account_button')}
-                    color="green"
+                    color="purple"
                     disabled={submitDisabled}
                     floated="right"
                     primary

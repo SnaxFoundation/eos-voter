@@ -9,7 +9,7 @@ export function transfer(from, to, quantity, memo, symbol) {
       balances,
       connection
     } = getState();
-    const currentSymbol = symbol || connection.chainSymbol || 'EOS';
+    const currentSymbol = symbol || connection.chainSymbol || 'SNAX';
 
     dispatch({
       payload: { connection },

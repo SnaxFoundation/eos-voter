@@ -14,7 +14,7 @@ export function delegatebw(delegator, receiver, netAmount, cpuAmount) {
     });
 
     return eos(connection, true).transaction(tr => {
-      tr.delegatebw(delegatebwParams(connection.chainSymbol || 'EOS', delegator, receiver, netAmount, cpuAmount));
+      tr.delegatebw(delegatebwParams(connection.chainSymbol || 'SNAX', delegator, receiver, netAmount, cpuAmount));
     }, {
       broadcast: connection.broadcast,
       expireInSeconds: connection.expireInSeconds,

@@ -8,7 +8,7 @@ import { update as update009 } from './migrations/009-updateSettings';
 import { update as update010 } from './migrations/010-updateBlockchains';
 import { update as update011 } from './migrations/011-updateBlockchains';
 
-const defaultChainId = '56be9cbec04d021da6aee34327ff3a62c127b0b464fb72091001e285fc6c4b44';
+const defaultChainId = 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7';
 
 const migrations = {
   /*

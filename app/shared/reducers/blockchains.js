@@ -3,9 +3,9 @@ import { partition, unionBy } from 'lodash';
 import * as types from '../actions/types';
 
 const knownChains = [
-  {
+  { 
     _id: 'snax-testnet',
-    chainId: 'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8',
+    chainId: 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7',
     keyPrefix: 'SNAX',
     name: 'SNAX',
     node: 'https://testnetcdn.snax.one',
@@ -18,23 +18,7 @@ const knownChains = [
     ],
     symbol: 'SNAX',
     testnet: true,
-  },
-  {
-    _id: 'snax-testnet(arabia)',
-    chainId: 'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8',
-    keyPrefix: 'SNAX',
-    name: 'SNAX(EOSARABIA)',
-    node: 'https://snax-test.eosarabia.net',
-    supportedContracts: [
-      // 'crosschaintransfer',
-      // 'customtokens',
-      // 'producerinfo',
-      // 'proposals',
-      // 'regproxyinfo'
-    ],
-    symbol: 'SNAX',
-    testnet: true,
-  },
+  }
 ];
 
 const initialState = [...knownChains];
@@ -98,11 +82,11 @@ export default function blockchains(state = initialState, action) {
         modified = {
           _id: `unknown-${info.chain_id}`,
           chainId: info.chain_id,
-          keyPrefix: 'EOS',
+          keyPrefix: 'SNAX',
           name: `Unknown (${info.chain_id.substr(0, 5)})`,
           node,
           supportedContracts: [],
-          symbol: 'EOS',
+          symbol: 'SNAX',
           testnet: false,
         };
       }

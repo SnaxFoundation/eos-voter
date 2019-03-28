@@ -29,7 +29,7 @@ export function setStake(accountName, netAmount, cpuAmount) {
     const {
       increaseInStake,
       decreaseInStake
-    } = getStakeChanges(connection.chainSymbol || 'EOS', currentAccount, accountName, delegations, netAmount, cpuAmount);
+    } = getStakeChanges(connection.chainSymbol || 'SNAX', currentAccount, accountName, delegations, netAmount, cpuAmount);
 
     dispatch({
       payload: { connection },

@@ -65,7 +65,7 @@ class WalletPanelFormStakeConfirming extends Component<Props> {
               <Segment>
                 <Header textAlign="center">
                   <font color="green">
-                    <Icon name="wifi" />{t('about_to_stake_units_to_net', { amount: `${netDifference.toFixed(4)} ${connection.chainSymbol || 'EOS'}` })}
+                    <Icon name="wifi" />{t('about_to_stake_units_to_net', { amount: `${netDifference.toFixed(4)} ${connection.chainSymbol || 'SNAX'}` })}
                   </font>
                   <Header.Subheader>
                     ({t('will_have_units_in_net_after', { amount: `${netAmount.toFixed(4)} ${connection.chainSymbol}` })})
@@ -78,7 +78,7 @@ class WalletPanelFormStakeConfirming extends Component<Props> {
               <Segment>
                 <Header textAlign="center">
                   <font color="red">
-                    <Icon name="wifi" />{t('about_to_unstake_units_from_net', { amount: `${(-netDifference).toFixed(4)} ${connection.chainSymbol || 'EOS'}` })})
+                    <Icon name="wifi" />{t('about_to_unstake_units_from_net', { amount: `${(-netDifference).toFixed(4)} ${connection.chainSymbol || 'SNAX'}` })})
                   </font>
                   <Header.Subheader>
                     ({t('will_have_units_in_net_after', { amount: `${netAmount.toFixed(4)} ${connection.chainSymbol}` })})
@@ -91,7 +91,7 @@ class WalletPanelFormStakeConfirming extends Component<Props> {
               <Segment>
                 <Header textAlign="center">
                   <font color="green">
-                    <Icon name="microchip" />{t('about_to_stake_units_to_cpu', { amount: `${(cpuDifference).toFixed(4)} ${connection.chainSymbol || 'EOS'}` })}
+                    <Icon name="microchip" />{t('about_to_stake_units_to_cpu', { amount: `${(cpuDifference).toFixed(4)} ${connection.chainSymbol || 'SNAX'}` })}
                   </font>
                   <Header.Subheader>
                     ({t('will_have_units_in_cpu_after', { amount: `${cpuAmount.toFixed(4)} ${connection.chainSymbol}` })})
@@ -104,7 +104,7 @@ class WalletPanelFormStakeConfirming extends Component<Props> {
               <Segment>
                 <Header textAlign="center">
                   <font color="red">
-                    <Icon name="microchip" />{t('about_to_unstake_units_from_cpu', { amount: `${(-cpuDifference).toFixed(4)} ${connection.chainSymbol || 'EOS'}` })}
+                    <Icon name="microchip" />{t('about_to_unstake_units_from_cpu', { amount: `${(-cpuDifference).toFixed(4)} ${connection.chainSymbol || 'SNAX'}` })}
                   </font>
                   <Header.Subheader>
                     ({t('will_have_units_in_cpu_after', { amount: `${cpuAmount.toFixed(4)} ${connection.chainSymbol}` })})

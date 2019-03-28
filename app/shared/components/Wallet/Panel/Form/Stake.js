@@ -45,7 +45,7 @@ class WalletPanelFormStake extends Component<Props> {
       cpuOriginal: Decimal(parsedCpuWeight),
       decimalCpuAmount: Decimal(parsedCpuWeight),
       decimalNetAmount: Decimal(parsedNetWeight),
-      chainSymbolBalance: (props.balance && props.balance[props.connection.chainSymbol || 'EOS']) ||  0,
+      chainSymbolBalance: (props.balance && props.balance[props.connection.chainSymbol || 'SNAX']) ||  0,
       formError: null,
       netAmountValid: true,
       netOriginal: Decimal(parsedNetWeight),

@@ -4,16 +4,16 @@ import * as types from '../actions/types';
 
 const initialState = {
   authorization: undefined,
-  chain: 'eos-mainnet',
+  chain: 'snax-testnet',
   broadcast: true,
-  chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
-  chainKey: 'eos-mainnet',
-  chainSymbol: 'EOS',
+  chainId: 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7',
+  chainKey: 'snax-testnet',
+  chainSymbol: 'SNAX',
   expireInSeconds: 120,
   // forceActionDataHex: false,
   historyPluginEnabled: true,
   httpEndpoint: null,
-  keyPrefix: 'EOS',
+  keyPrefix: 'SNAX',
   sign: false,
   signMethod: false,
   signPath: false,
@@ -44,12 +44,12 @@ export default function connection(state = initialState, action) {
           account,
           authorization || 'active',
         ].join('@'),
-        chain: (blockchain && blockchain.name) || 'EOS Mainnet',
+        chain: (blockchain && blockchain.name) || 'SNAX Mainnet',
         chainId: action.payload.info.chain_id,
-        chainKey: (blockchain && blockchain._id) || 'eos-mainnet',
-        chainSymbol: (blockchain && blockchain.symbol) || 'EOS',
+        chainKey: (blockchain && blockchain._id) || 'snax-mainnet',
+        chainSymbol: (blockchain && blockchain.symbol) || 'SNAX',
         httpEndpoint: action.payload.node,
-        keyPrefix: (blockchain && blockchain.keyPrefix) || 'EOS',
+        keyPrefix: (blockchain && blockchain.keyPrefix) || 'SNAX',
         supportedContracts: (blockchain) ? blockchain.supportedContracts : []
       });
     }

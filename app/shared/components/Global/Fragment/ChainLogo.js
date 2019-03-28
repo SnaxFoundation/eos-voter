@@ -12,8 +12,8 @@ import telosLogo from '../../../../renderer/assets/images/telos.png';
 import worbliLogo from '../../../../renderer/assets/images/worbli.png';
 
 const logos = {
-  'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8': snaxLogo, // testnet snax
-  'd880df625a3a977fabfed62fb1fe1adce546782c458ee5b9d7b56554af0bd9a8': snaxLogo, // testnet snax
+  'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7': snaxLogo, // testnet snax
+  'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7': snaxLogo, // testnet snax
 };
 
 class GlobalFragmentChainLogo extends PureComponent<Props> {

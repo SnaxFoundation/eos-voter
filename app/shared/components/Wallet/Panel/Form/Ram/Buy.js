@@ -115,7 +115,7 @@ class WalletPanelFormRamBuy extends Component<Props> {
       return 'ram_has_to_be_over_minimum_amount';
     }
 
-    const chainSymbolBalance = balance[connection.chainSymbol || 'EOS'];
+    const chainSymbolBalance = balance[connection.chainSymbol || 'SNAX'];
 
     if (!chainSymbolBalance || Decimal(chainSymbolBalance).lessThan(priceOfRam)) {
       return 'error_insufficient_balance';
@@ -238,7 +238,7 @@ class WalletPanelFormRamBuy extends Component<Props> {
                   </Grid.Column>
                   <Grid.Column width={8}>
                     <WalletPanelFormRamStats
-                      chainSymbolBalance={balance[connection.chainSymbol || 'EOS']}
+                      chainSymbolBalance={balance[connection.chainSymbol || 'SNAX']}
                       connection={connection}
                       ramQuota={ramQuota}
                       ramUsage={ramUsage}
@@ -274,7 +274,7 @@ class WalletPanelFormRamBuy extends Component<Props> {
               connection={connection}
               ramAmount={ramToBuy}
               newRamAmount={ramQuota + Number(ramToBuy)}
-              chainSymbolBalance={balance[connection.chainSymbol || 'EOS']}
+              chainSymbolBalance={balance[connection.chainSymbol || 'SNAX']}
               onBack={this.onBack}
               onConfirm={this.onConfirm}
               priceOfRam={priceOfRam}

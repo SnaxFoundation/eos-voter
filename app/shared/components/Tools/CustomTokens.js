@@ -153,7 +153,7 @@ class ToolsCustomTokens extends Component<Props> {
           </Table.Header>
           <Table.Body>
             {([].concat(tokens)
-                .filter((token) => (token.symbol !== 'EOS'))
+                .filter((token) => (token.symbol !== 'SNAX'))
                 .filter((token) => (filterTokens.indexOf(token.symbol) === -1))
                 .map((token) => {
                   const name = `${connection.chainId}:${token.contract}:${token.symbol}`;

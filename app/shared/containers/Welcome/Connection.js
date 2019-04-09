@@ -33,7 +33,7 @@ class WelcomeConnectionContainer extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-      node: props.settings.node || 'https://testnetcdn.snax.one',
+      node: props.settings.node || 'https://cdn.snax.one',
       sslConfirm: false
     };
   }

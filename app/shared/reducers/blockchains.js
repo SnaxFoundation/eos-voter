@@ -4,11 +4,11 @@ import * as types from '../actions/types';
 
 const knownChains = [
   { 
-    _id: 'snax-testnet',
-    chainId: 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7',
+    _id: 'snax-mainnet',
+    chainId: 'c8ed526571dc2ae39b842d978a9f2b6db059e4dd871105bfe1132be08c06ff8a',
     keyPrefix: 'SNAX',
     name: 'SNAX',
-    node: 'https://testnetcdn.snax.one',
+    node: 'https://cdn.snax.one',
     supportedContracts: [
       // 'crosschaintransfer',
       // 'customtokens',
@@ -17,7 +17,6 @@ const knownChains = [
       // 'regproxyinfo'
     ],
     symbol: 'SNAX',
-    testnet: true,
   }
 ];
 

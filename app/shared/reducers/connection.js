@@ -4,10 +4,10 @@ import * as types from '../actions/types';
 
 const initialState = {
   authorization: undefined,
-  chain: 'snax-testnet',
+  chain: 'snax-mainnet',
   broadcast: true,
-  chainId: 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7',
-  chainKey: 'snax-testnet',
+  chainId: 'c8ed526571dc2ae39b842d978a9f2b6db059e4dd871105bfe1132be08c06ff8a',
+  chainKey: 'snax-mainnet',
   chainSymbol: 'SNAX',
   expireInSeconds: 120,
   // forceActionDataHex: false,

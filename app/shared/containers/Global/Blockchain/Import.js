@@ -16,7 +16,7 @@ import GlobalFormFieldServer from '../../../components/Global/Form/Field/Server'
 
 class GlobalBlockchainImport extends Component<Props> {
   state = {
-    host: 'https://testnetcdn.snax.one',
+    host: 'https://cdn.snax.one',
     result: {}
   }
   static getDerivedStateFromProps(props, state) {

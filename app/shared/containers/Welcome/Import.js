@@ -14,7 +14,7 @@ import * as ValidateActions from '../../actions/validate';
 import * as WalletActions from '../../actions/wallet';
 import * as WalletsActions from '../../actions/wallets';
 
-const defaultChainId = 'b73d947e5792d923a190f4ef1532255b59dee93fe2e32170b018d59001ce58a7';
+const defaultChainId = 'c8ed526571dc2ae39b842d978a9f2b6db059e4dd871105bfe1132be08c06ff8a';
 import { update as update009 } from '../../store/shared/migrations/009-updateSettings';
 
 const { ipcRenderer } = require('electron');

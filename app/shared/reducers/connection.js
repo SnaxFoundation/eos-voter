@@ -7,7 +7,7 @@ const initialState = {
   chain: 'snax-mainnet',
   broadcast: true,
   chainId: 'c8ed526571dc2ae39b842d978a9f2b6db059e4dd871105bfe1132be08c06ff8a',
-  chainKey: 'eos-mainnet',
+  chainKey: 'snax-mainnet',
   chainSymbol: 'SNAX',
   expireInSeconds: 120,
   // forceActionDataHex: false,
